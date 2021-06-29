@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tu y el proyecto</title>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- plugin bxslider -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <!-- moment.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es-mx.min.js" integrity="sha512-Qy4cmZ6v7vnVEc0cn/BIj9q15eB98do4hMvu8xtc/H+v+YYpdpDrB35flHS3NPLbZUpe1npSYY/u+Gi3UB61vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Nuestro archivo js -->
+        <script src="js/main.js"></script>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+     <section id="global">
+
+        <!-- cabecera -->
+         <header>
+             <div id="logo">
+                 <h1>PROYECTO JS </h1>
+             </div>
+             <div class="clearfix"></div>
+             <nav id="menu">
+                 <ul >
+                     <li><a href="">INICIO</a></li>
+                     <li><a href="">RELOJ</a></li>
+                     <li><a href="">SOBRE MI</a></li>
+                     <li><a href="">CONTACTO</a></li>
+                 </ul>
+             </nav>
+         </header>
+
+         <!-- Slider -->
+         <div id="slider">
+            <div class="galeria">
+                <div><img src="https://fondosmil.com/fondo/23503.jpg"></div>
+                <div><img src="https://www.wallpapertip.com/wmimgs/5-58903_sunset.jpg"></div>
+                <div><img src="https://www.teahub.io/photos/full/197-1975834_photoshoped-photography-of-sea-in-night-with-sunset.jpg"></div>
+              </div>
+         </div>
+
+         <!-- COntenido -->
+         <section id="content">
+             <div id="posts">
+               
+             </div>
+             <aside id="sidebar">
+                <div class="about">
+                    <h4>¿Y mex? </h4>
+                    <img src="https://biotechmagazineandnews.com/wp-content/uploads/2019/07/caracol.jpg" alt="gary">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus nihil sequi? Blanditiis, sit exercitationem.</p>
+                </div>
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form action="">
+                        <label for="name">nombre</label>
+                        <input type="text" name="name" id="name">
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="password">
+
+                        <input type="submit" value="Entrar">
+                    </form>
+                </div>
+             </aside>
+             <div class="clearfix"></div>
+         </section>
+     </section>
+     <footer>
+         Curso desde cero y sin logica &copy;
+     </footer>
+</body>
+</html>
